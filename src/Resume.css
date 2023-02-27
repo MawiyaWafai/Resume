@@ -1,0 +1,44 @@
+
+.res{
+    position: absolute;
+    padding-top: 8%;
+    left: 100px;
+  }
+  
+  h1{
+    font-size: 3.5vw;
+  }
+  
+  .icons1{
+    font-size: 1.25vw;
+  }
+  
+  .info{
+    margin-left: 1%;
+  }
+  
+  .btn{
+    bottom: 40%;
+    background-color: #62b1ba;
+    left: 8%;
+    z-index: 1000;
+    position: absolute;
+    border: none;
+  }
+  
+  .preview{
+    padding: 12px 10px;
+    margin: 12px 0;
+  }
+  
+  @media screen and (max-width: 1250px) {
+    .lang, .award, .educate, .skills, .experience, .stre, .cert{
+        display: none;
+    }
+  
+    .bt{
+        position: absolute;
+        left: 15%;
+        font-size: 0.5vw;
+    }
+  }
